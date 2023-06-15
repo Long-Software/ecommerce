@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#form {
+    width: 40%;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+}
+
+.form-group:last-child * {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a>button {
+    border: none;
+    margin-right: 20px;
+    font-size: 1rem;
+    background-color: white;
+}
+
+.col-12 .select {
+    border-bottom: 5px solid;
+    border-color: dodgerblue;
+}
+
+.type a>button {
+    border-bottom: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: white;
+}
+
+.type a button.select {
+    border-bottom: none;
+    color: white;
+    background-color: dodgerblue;
+}
