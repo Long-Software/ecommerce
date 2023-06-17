@@ -48,7 +48,7 @@ a>button {
 
 .col-12 .select {
     border-bottom: 5px solid;
-    border-color: dodgerblue;
+    border-color: #0a1832;
 }
 
 .type a>button {
@@ -64,5 +64,5 @@ a>button {
 .type a button.select {
     border-bottom: none;
     color: white;
-    background-color: dodgerblue;
+    background-color: #0a1832;
 }
