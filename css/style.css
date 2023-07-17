@@ -1,3 +1,9 @@
+:root {
+    --clr-light: #f8fafc;
+    --clr-gray: #334155;
+    --clr-dark: #020617;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -43,12 +49,12 @@ a>button {
     border: none;
     margin-right: 20px;
     font-size: 1rem;
-    background-color: white;
+    background-color: var(--clr-light);
 }
 
 .col-12 .select {
     border-bottom: 5px solid;
-    border-color: #0a1832;
+    border-color: var(--clr-dark);
 }
 
 .type a>button {
@@ -58,11 +64,11 @@ a>button {
     margin-right: 20px;
     padding: 0.5rem;
     font-size: 1rem;
-    background-color: white;
+    background-color: var(--clr-light);
 }
 
 .type a button.select {
     border-bottom: none;
-    color: white;
-    background-color: #0a1832;
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
 }
